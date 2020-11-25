@@ -17,7 +17,7 @@ The example is illustrated [here](https://spark.apache.org/docs/2.3.0/ml-cluster
 * start spark master and slave as seen in previous labs (if not running already)
 * submit the task to your spark server
   - `$ bin/spark-submit --master local[4] examples/src/main/python/ml/kmeans_example.py`
-
+* check output
 
 
 ## Python 
