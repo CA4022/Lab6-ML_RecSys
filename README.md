@@ -19,6 +19,16 @@ The example is illustrated [here](https://spark.apache.org/docs/2.3.0/ml-cluster
   - `$ bin/spark-submit --master local[4] examples/src/main/python/ml/kmeans_example.py`
 * check output
 
+## Features Extraction, Transformation and Selection
+[This section](https://spark.apache.org/docs/2.3.0/ml-features.html) of the MLlib main guide provides several mechanisms to extract features from raw data (e.g. TF-IDF for vectorizatiation of text features), transform features (e.g. n-grams used for shingling, remove stop words, tokenize, ...), select a subset of relevant features (e.g. from a vector column), and hashing (including LSH, min-hash seen in item similarity and used for clustering and recommendation).
+
+Note the following:
+  * some of the functionalities work on RDDs only, some on DataFrames only, you can see that looking at what data structure is used to wrap the data 
+
+## ML Pipelines
+  * High-level APIs working on DataFrames
+  * Example: Spam email detection
+  
 
 ## Python 
 * [Pyspark mllib modules](https://spark.apache.org/docs/2.3.0/api/python/pyspark.mllib.html)
