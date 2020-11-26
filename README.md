@@ -23,11 +23,16 @@ The example is illustrated [here](https://spark.apache.org/docs/2.3.0/ml-cluster
 [This section](https://spark.apache.org/docs/2.3.0/ml-features.html) of the MLlib main guide provides several mechanisms to extract features from raw data (e.g. TF-IDF for vectorizatiation of text features), transform features (e.g. n-grams used for shingling, remove stop words, tokenize, ...), select a subset of relevant features (e.g. from a vector column), and hashing (including LSH, min-hash seen in item similarity and used for clustering and recommendation).
 
 Note the following:
-  * some of the functionalities work on RDDs only, some on DataFrames only, you can see that looking at what data structure is used to wrap the data 
+  * some of the functionalities work on RDDs only, some on DataFrames only
+  * you are probably likely to have a mix of data types in complex projects (you can see that looking at what data structure is used to wrap the data) 
 
 ## ML Pipelines
   * High-level APIs working on DataFrames
-  * Example: Spam email detection
+  * Example: Spam email detection (modified from [pipeline_example.py](https://spark.apache.org/docs/2.3.0/ml-pipeline.html#example-pipeline)
+    - python code in spam-ham.py
+    - note that we omit reading the data from the file (which is not very relevant here). Instead, we provide the data directly using strings in the program
+    - look into the different steps: prepare training documents, configure pipeline, fit the model with training documents (estimator), prepare test documents, make prediction on test documents (transformer)
+    - start spark master and slage and use spark-submit to run spam-ham.py
   
 
 ## Python 
