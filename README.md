@@ -25,6 +25,7 @@ The example is illustrated [here](https://spark.apache.org/docs/2.3.0/ml-cluster
 Note the following:
   * some of the functionalities work on RDDs only, some on DataFrames only
   * you are probably likely to have a mix of data types in complex projects (you can see that looking at what data structure is used to wrap the data) 
+  * in procedding documents, it is very common to use these methods to transform text into numeric vectors/matrixes, which is what the ML algorithms use
 
 ## ML Pipelines
   * High-level APIs working on DataFrames
@@ -32,7 +33,7 @@ Note the following:
     - python code in spam-ham.py
     - note that we omit reading the data from the file (which is not very relevant here). Instead, we provide the data directly using strings in the program
     - look into the different steps: prepare training documents, configure pipeline, fit the model with training documents (estimator), prepare test documents, make prediction on test documents (transformer)
-    - start spark master and slage and use spark-submit to run spam-ham.py
+    - start spark master and slave and use spark-submit to run spam-ham.py
   
 
 ## Python 
