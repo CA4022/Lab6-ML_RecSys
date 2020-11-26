@@ -41,8 +41,16 @@ Note the following:
 * [Pyspark ml modules](https://spark.apache.org/docs/2.3.0/api/python/pyspark.ml.html)
 
 ## Java
-* Machine Learning with [MLib in Java] (https://www.tutorialkart.com/apache-spark/apache-spark-mllib-scalable-machine-learning-library/)
+* Machine Learning with [MLib in Java](https://www.tutorialkart.com/apache-spark/apache-spark-mllib-scalable-machine-learning-library/)
 
-# Recommender Systems examples and pointers
-<!--* [Example Collaborative Filtering](https://www.tutorialspoint.com/pyspark/pyspark_mllib.htm)>
+# Recommender Systems example and resources
+TBD
+<!--* [Example Collaborative Filtering](https://www.tutorialspoint.com/pyspark/pyspark_mllib.htm)
+Recommendation with Mlib in Python:
+Python/Scala: http://ampcamp.berkeley.edu/5/exercises/movie-recommendation-with-mllib.html
+https://medium.com/analytics-vidhya/crafting-recommendation-engine-in-pyspark-a7ca242ad40a
+PySpark and MLIB tutorial: https://www.tutorialspoint.com/pyspark/pyspark_mllib.htm
+Databrics: https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/3741049972324885/1723574684687027/4413065072037724/latest.html
+CollabFiltering with ALS https://towardsdatascience.com/build-recommendation-system-with-pyspark-using-alternating-least-squares-als-matrix-factorisation-ebe1ad2e7679
+BookRecommendation: https://towardsdatascience.com/building-a-recommendation-engine-to-recommend-books-in-spark-f09334d47d67 -->
 
