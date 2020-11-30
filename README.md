@@ -2,6 +2,14 @@
 This Lab provides some pointers and resources for Machine Learning with Spark MLib.
 The official guide is available [here](https://spark.apache.org/docs/2.3.0/ml-guide.html)
 
+Further links for Java:
+* Machine Learning with [MLib in Java](https://www.tutorialkart.com/apache-spark/apache-spark-mllib-scalable-machine-learning-library/)
+
+Further links for Python: 
+* [Pyspark mllib modules](https://spark.apache.org/docs/2.3.0/api/python/pyspark.mllib.html)
+* [Pyspark ml modules](https://spark.apache.org/docs/2.3.0/api/python/pyspark.ml.html)
+
+
 We will start by running some of the examples available in `<YOUR_SPARK_HOME>/examples/src/main/python/ml/`
 The corresponding code is also illustrated in the [MLlib manual](https://spark.apache.org/docs/2.3.0/ml-guide.html)
 
@@ -45,13 +53,6 @@ Note the order of some of these in the list, as some take as input  the output o
   
 ##  Classification/Clustering examples
  * ...
-
-## Python 
-* [Pyspark mllib modules](https://spark.apache.org/docs/2.3.0/api/python/pyspark.mllib.html)
-* [Pyspark ml modules](https://spark.apache.org/docs/2.3.0/api/python/pyspark.ml.html)
-
-## Java
-* Machine Learning with [MLib in Java](https://www.tutorialkart.com/apache-spark/apache-spark-mllib-scalable-machine-learning-library/)
 
 # Recommender Systems example and resources
 TBD
