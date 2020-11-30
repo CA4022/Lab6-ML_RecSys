@@ -25,7 +25,7 @@ The example is illustrated [here](https://spark.apache.org/docs/2.3.0/ml-cluster
 Note the following:
   * some of the functionalities work on RDDs only, some on DataFrames only
   * you are probably likely to have a mix of data types in complex projects (you can see that looking at what data structure is used to wrap the data) 
-  * in procedding documents, it is very common to use these methods to transform text into numeric vectors/matrixes, which is what the ML algorithms use
+  * when processing documents, it is very common to use these methods to transform text into numeric vectors/matrixes, which is what the ML algorithms use
 
 ## ML Pipelines
   * High-level APIs working on DataFrames
