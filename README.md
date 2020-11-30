@@ -29,7 +29,7 @@ Note the following:
 
 ## ML Pipelines
   * High-level APIs working on DataFrames
-  * Example: Spam email detection (modified from [pipeline_example.py](https://spark.apache.org/docs/2.3.0/ml-pipeline.html#example-pipeline)
+  * Example: Spam email detection (modified from [pipeline_example.py](https://spark.apache.org/docs/2.3.0/ml-pipeline.html#example-pipeline))
     - python code in spam-ham.py
     - note that we omit reading the data from the file (which is not very relevant here). Instead, we provide the data directly using strings in the program
     - look into the different steps: prepare training documents, configure pipeline, fit the model with training documents (estimator), prepare test documents, make prediction on test documents (transformer)
