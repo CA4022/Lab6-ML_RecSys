@@ -52,7 +52,7 @@ Note the order of some of these in the list, as some take as input  the output o
   * Question: how would you modify the code to do sentiment analysis, using logistic regression?
   
 ##  Classification/Clustering examples
- * ...
+ * Experiment with some of the different examples of [Classification](https://spark.apache.org/docs/2.3.0/ml-classification-regression.html) and [Clustering](https://spark.apache.org/docs/2.3.0/ml-clustering.html) in the Spark Documentation.
 
 # Recommender Systems example and resources
 TBD
