@@ -27,6 +27,13 @@ Note the following:
   * you are probably likely to have a mix of data types in complex projects (you can see that looking at what data structure is used to wrap the data) 
   * when processing documents, it is very common to use these methods to transform text into numeric vectors/matrixes, which is what the ML algorithms use
 
+Try and run the following examples from the [spark documentation](https://spark.apache.org/docs/2.3.0/ml-features.html):
+  * Word2Vec or CountVectoriser
+  * StopWordsRemover (try it with a different language)
+  * n-grams 
+
+Note the order of some of these in the list, as some take as input  the output of a previous transformation (e.g. tokeniser/stopwordsremover/n-grams)  
+
 ## ML Pipelines
   * High-level APIs working on DataFrames
   * Example: Spam email detection (modified from [pipeline_example.py](https://spark.apache.org/docs/2.3.0/ml-pipeline.html#example-pipeline))
@@ -35,7 +42,9 @@ Note the following:
     - look into the different steps: prepare training documents, configure pipeline, fit the model with training documents (estimator), prepare test documents, make prediction on test documents (transformer)
     - start spark master and slave and use spark-submit to run spam-ham.py
   * Question: how would you modify the code to do sentiment analysis, using logistic regression?
-  * 
+  
+##  Classification/Clustering examples
+ * ...
 
 ## Python 
 * [Pyspark mllib modules](https://spark.apache.org/docs/2.3.0/api/python/pyspark.mllib.html)
