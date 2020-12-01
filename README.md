@@ -55,7 +55,10 @@ Note the order of some of these in the list, as some take as input  the output o
  * Experiment with some of the different examples of [Classification](https://spark.apache.org/docs/2.3.0/ml-classification-regression.html) and [Clustering](https://spark.apache.org/docs/2.3.0/ml-clustering.html) in the Spark Documentation.
 
 # Recommender Systems example and resources
-TBD
+Spark recommendation is based on Alternating Least Squares (ALS) matrix factorisation algorithms. Some example of how to build a RecSys based on Collaboratife filtering with ALS in PySpark are listed below:
+  * [Movie recommendation](https://spark.apache.org/docs/2.3.0/ml-collaborative-filtering.html)
+  * [Book recommendation](https://towardsdatascience.com/building-a-recommendation-engine-to-recommend-books-in-spark-f09334d47d67)
+  
 <!--* [Example Collaborative Filtering](https://www.tutorialspoint.com/pyspark/pyspark_mllib.htm)
 Recommendation with Mlib in Python:
 Python/Scala: http://ampcamp.berkeley.edu/5/exercises/movie-recommendation-with-mllib.html
