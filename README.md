@@ -1,4 +1,4 @@
-# Machine Learning with SPARK MLlib
+# Machine Learning with SPARK
 This Lab provides some pointers and resources for Machine Learning with Spark MLib.
 The official guide is available [here](https://spark.apache.org/docs/2.3.0/ml-guide.html)
 
@@ -8,6 +8,7 @@ Further links for Java:
 Further links for Python: 
 * [Pyspark mllib modules](https://spark.apache.org/docs/2.3.0/api/python/pyspark.mllib.html)
 * [Pyspark ml modules](https://spark.apache.org/docs/2.3.0/api/python/pyspark.ml.html)
+* [Connect Jupiter Notebook to a Spark Cluster](https://www.bmc.com/blogs/jupyter-notebooks-apache-spark/)
 
 
 We will start by running some of the examples available in `<YOUR_SPARK_HOME>/examples/src/main/python/ml/`
