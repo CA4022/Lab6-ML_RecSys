@@ -1,6 +1,10 @@
 # Machine Learning with SPARK
-This Lab provides some pointers and resources for Machine Learning with Spark MLib.
-The official guide is available [here](https://spark.apache.org/docs/2.3.0/ml-guide.html)
+This Lab provides some pointers and resources for Machine Learning with Spark.
+You can see there are two main libraries: 
+* Spark MLlib (guide available [here](https://spark.apache.org/docs/2.3.0/ml-guide.html))
+* SparkML library (guide available [here](https://spark.apache.org/docs/1.2.2/ml-guide.html) 
+
+Note that we will look into MLlib for the examples below and this is recommended also for backward compatibility with RDDs, but SparkML (on DataFrames) supports ML pipelines and should therefore be your library of choice for ML on Spark (e.g. in your assignment).
 
 Further links for Java:
 * Machine Learning with [MLib in Java](https://www.tutorialkart.com/apache-spark/apache-spark-mllib-scalable-machine-learning-library/)
