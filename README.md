@@ -1,6 +1,6 @@
 # Machine Learning with SPARK
 This Lab provides some pointers and resources for Machine Learning with Spark.
-You can see the main ML library documentation [here](https://spark.apache.org/docs/latest/mllib-guide.html)
+You can see the main ML library documentation [here](https://spark.apache.org/docs/latest/ml-guide.html)
 
 * spark.ml package is now the primary API (data frame based api)
 * spark.mllib package is now in maintenance mode (RDD-based API) available [here](https://spark.apache.org/docs/latest/mllib-guide.html)
