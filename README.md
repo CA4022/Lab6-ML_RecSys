@@ -5,7 +5,8 @@ You can see the main ML library documentation [here](https://spark.apache.org/do
 * spark.ml package is now the primary API (data frame based api)
 * spark.mllib package is now in maintenance mode (RDD-based API) available [here](https://spark.apache.org/docs/latest/mllib-guide.html)
 
-Note that we will look into MLlib for the examples below and this is recommended also for backward compatibility with RDDs, but SparkML (on DataFrames) supports ML pipelines and should therefore be your library of choice for ML on Spark (e.g. in your assignment).
+<!--Note that we will look into MLlib for the examples below and this is recommended also for backward compatibility with RDDs, but -->
+Note that SparkML (on DataFrames) supports ML pipelines and should therefore be your library of choice for ML on Spark (e.g. in your assignment).
 
 <!--Further links for Java:
 * Machine Learning with [MLib in Java](https://www.tutorialkart.com/apache-spark/apache-spark-mllib-scalable-machine-learning-library/)-->
